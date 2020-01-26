@@ -6,6 +6,7 @@ body{
 }
 
 .header{
+  width:100%;
   background-image: url("bg-header-desktop.png");
   background-size: cover;
 }
@@ -81,6 +82,7 @@ td{
 }
 
 .bottom-content{
+  width:100%;
   background-color:#deddfa;
   margin: 40px 0 20px;
 }
@@ -104,6 +106,9 @@ span{
   margin-top: 93px;
 }
 @media (max-width:880px) {
+     body{
+       text-align:center;
+    }
     .fa-copyright{
       display:block;
     }
